@@ -30,8 +30,8 @@ html, body {
 }
 
 #page-0 #star {
-	top: 198px;
-	left: 500px;
+	top: 500px;
+	left: 198px;
 	width: 528px;
 	height: 908px;
 	background-image: url('images/page-0/star.png');
