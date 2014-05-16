@@ -28,3 +28,19 @@ html, body {
 	height: 386px;
 	background-image: url('images/page-0/moon.png');
 }
+
+#page-0 #star {
+	top: 198px;
+	left: 500px;
+	width: 528px;
+	height: 908px;
+	background-image: url('images/page-0/star.png');
+}
+
+#page-0 #cloud {
+	top: 247px;
+	left: 85px;
+	width: 995px;
+	height: 781px;
+	background-image: url('images/page-0/cloud.png');
+}
