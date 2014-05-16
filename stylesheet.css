@@ -43,4 +43,6 @@ html, body {
 	width: 995px;
 	height: 781px;
 	background-image: url('images/page-0/cloud.png');
+
+	opacity: 0;
 }
