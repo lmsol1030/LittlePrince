@@ -21,7 +21,8 @@ html, body {
 }
 
 #page-0 #moon {
-	top: 1229px;
+/*	top: 1229px; */
+	bottom: 300px;
 	left: 710px;
 	width: 288px;
 	height: 386px;
