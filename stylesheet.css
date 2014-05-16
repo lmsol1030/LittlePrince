@@ -19,3 +19,11 @@ html, body {
 	height: 100%;
 	background-image: url('images/page-0/bg.jpg');
 }
+
+#page-0 #moon {
+	top: 1229px;
+	left: 710px;
+	width: 288px;
+	height: 386px;
+	background-image: url('images/page-0/moon.png');
+}
