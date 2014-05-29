@@ -1,0 +1,26 @@
+
+
+#page-2 .bg {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/page-2/background.png');
+}
+#page-2 #night {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/page-2/background2.png');	
+	display: none;
+}
+#page-2 .text {
+	font-size: 100px;
+	top: 500px;
+	left: 200px;
+}
+#page-2 .cloud {
+	background-size: auto;
+	top: 500px;
+	left: 900px;
+	height: 140px;
+    width: 108px;
+    background-image: url(images/page-2/cloud.png);
+}

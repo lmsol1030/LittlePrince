@@ -4,11 +4,9 @@
 	background-image: url('images/page-1/background.jpg');
 }
 
-#page-1 #rose {
-	top: 247px;
-	left: 85px;
-	width: 995px;
-	height: 781px;
+#page-1 .rose {
+	width: 256px;
+	height: 253px;
 	background-image: url('images/page-1/rose.png');
 
 	opacity: 0;

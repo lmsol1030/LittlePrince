@@ -1,7 +1,15 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothiccoding.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
+
 html, body {
 	margin: 0;
 	width: 100%;
 	height: 100%;
+
+	font-family: 'Nanum Pen Script'; 
 }
 
 .page {
@@ -12,6 +20,8 @@ html, body {
 
 .page div {
 	position: absolute;
+	background-size: cover;
+	background-position: center;
 }
 
 .shake {
