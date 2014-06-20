@@ -25,3 +25,15 @@
 	top: 500px;
 	left: 200px;
 }
+#page-3 #planet {
+	background-image: url('images/page-3/planet.png');	
+	display: none;
+}
+#page-3 #prince {
+	background-image: url('images/page-3/prince.png');	
+	display: none;
+}
+#page-3 #star {
+	background-image: url('images/page-3/star.png');	
+	display: none;
+}
