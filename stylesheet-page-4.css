@@ -1,0 +1,26 @@
+#page-4 .bg {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/page-4/background.png');
+	display:fixed;
+}
+#page-4 #foxbg {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/page-4/background2.png');	
+	display: none;
+}
+#page-4 .text {
+	font-size: 50px;
+	top: 500px; 
+	left: 200px;
+}
+#page-4 #fox {
+  background-size:
+  background-image: url('images/page-4/fox.png');
+}
+#page-4 #snow {
+  width: 100%;
+	height: 100%;
+  background-image: url('images/page-4/snow.png');
+}
