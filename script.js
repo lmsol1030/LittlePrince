@@ -23,7 +23,7 @@
 
 $(document).ready(function() {
 	$(".page").hide();
-	$("#page-4").show();
+	$("#page-3").show();
 
 });
 
