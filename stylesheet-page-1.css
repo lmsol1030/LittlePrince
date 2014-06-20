@@ -11,3 +11,31 @@
 
 	opacity: 0;
 }
+#page-1 #item1 {
+	background-image: url('images/page-1/item1.png');	
+	display: none;
+}
+#page-1 #item2 {
+	background-image: url('images/page-1/item2.png');	
+	display: none;
+}
+#page-1 #item3 {
+	background-image: url('images/page-1/item3.png');	
+	display: none;
+}
+#page-1 #item4 {
+	background-image: url('images/page-1/item4.png');	
+	display: none;
+}
+#page-1 #rose1 {
+	background-image: url('images/page-1/rose1.png');	
+	display: none;
+}
+#page-1 #rose2 {
+	background-image: url('images/page-1/rose2.png');	
+	display: none;
+}
+#page-1 #rose3{
+	background-image: url('images/page-1/rose3.png');	
+	display: none;
+}
