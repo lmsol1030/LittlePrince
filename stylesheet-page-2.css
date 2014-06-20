@@ -18,10 +18,10 @@
 	left: 200px;
 }
 #page-2 .cloud {
-	background-size: auto;
+	background-size: 300px 500px;
 	top: 463px;
 	left: 567px;
 	height: 600px;
-    width: 512px;
-    background-image: url(images/page-2/yungi2.png);
+        width: 512px;
+        background-image: url(images/page-2/yungi2.png);
 }
