@@ -16,11 +16,11 @@
 	left: 200px;
 }
 #page-4 #fox {
-  background-size:
-  background-image: url('images/page-4/fox.png');
+  	background-size:
+  	background-image: url('images/page-4/fox.png');
 }
 #page-4 #snow {
-  width: 100%;
+  	width: 100%;
 	height: 100%;
-  background-image: url('images/page-4/snow.png');
+  	background-image: url('images/page-4/snow.png');
 }
