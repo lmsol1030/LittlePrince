@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
 		$("#page-0 .typo").click(function(){
@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 		});
 	});
-/*
+*/
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-1").show();
