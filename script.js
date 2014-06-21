@@ -1,4 +1,4 @@
-$(document).ready(function() {
+/*$(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
 	$("#page-0").click(function(){
@@ -6,7 +6,7 @@ $(document).ready(function() {
 		$("#page-1").fadeIn(3000);
 	})
 });
-
+*/
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-2").show();
