@@ -54,6 +54,19 @@ $(document).ready(function(){
 		$("#page-3 #item3").fadeIn(3000);
 		$("#page-3 #item4").fadeIn(3000);
 	});
+	$("#page-3 .prince2").click(function(){
+		$("#page-3 #prince").fadeIn(3000);
+	});
+	$("#page-3 .typo").click(function(){
+		$("#page-3 .text").show();
+		$("#page-3 .text").typed({
+			strings: ["넓은 바다 한가운데서 혼자 뗏목을 타고 표류하는 것보다 더 고립되어 있는 것처럼 느껴졌다!"],
+			typeSpeed: 130,
+			callback: function(){
+				$("#page-3").fadeOut(3000);
+				$("#page-4").fadeIn(3000);
+			}
+		});
 
 });
 
