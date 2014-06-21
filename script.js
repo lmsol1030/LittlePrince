@@ -7,6 +7,7 @@
 	})
 });
 */
+/*
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-2").show();
@@ -23,6 +24,7 @@ $(document).ready(function() {
 			loop: true,
 		});
 	});
+	*/
 	$("#page-2 .typo").click(function(){
 		$("#page-2 .text").show();
 		$("#page-2 .text").typed({
