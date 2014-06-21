@@ -76,7 +76,7 @@ $(document).ready(function(){
 	$(".page").hide();
 	$('#page-4').show();
 	
-
+});
 
 
 /*
