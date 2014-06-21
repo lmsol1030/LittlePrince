@@ -42,11 +42,21 @@ $(document).ready(function() {
 $(document).ready(function(){
 	$(".page").hide();
 	$('#page-3').show();
-	var bez_path = new $.path.bezier({
-  	start: { x:-162, y:570, angle: -45}, end: {x:1200,y:680}
+	$("#planet").click(function(){
+		var bez_path = new $.path.bezier({
+			start: { x:100, y:356, angle: -55}, end: {x:1200,y:850}
+		});
+		$("#page-3 #planet").animate({path : bez_path}, 3000);
 	});
-	$("#page-3 #planet").animate({path : bez_path}, 4000);
+	$(".bird").click(function(){
+		$("#page-3 #item1").fadeIn(3000);
+		$("#page-3 #item2").fadeIn(3000);
+		$("#page-3 #item3").fadeIn(3000);
+		$("#page-3 #item4").fadeIn(3000);
+	});
+
 });
+
 
 
 /*
