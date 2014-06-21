@@ -28,14 +28,26 @@
 	display: none;
 }
 #page-1 #rose1 {
+	top: 198px;
+	left: 622px;
+	height:129px;
+        width: 125px;
 	background-image: url('images/page-1/rose1.png');	
 	display: none;
 }
 #page-1 #rose2 {
+	top: 81px;
+	left: 736px;
+	height:129px;
+        width: 125px;
 	background-image: url('images/page-1/rose2.png');	
 	display: none;
 }
 #page-1 #rose3{
+	top: 1375px;
+	left: 604px;
+	height:129px;
+        width: 125px;
 	background-image: url('images/page-1/rose3.png');	
 	display: none;
 }
