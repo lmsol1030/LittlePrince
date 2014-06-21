@@ -1,9 +1,7 @@
 $(document).ready(function() {
 	$(".page").hide();
-	$("#page-3").show();
-	$("#page-0").click(function(){
-		$("#page-1").show();
-	});
+	$("#page-4").show();
+	
 });
 
 /*
