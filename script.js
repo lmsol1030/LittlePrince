@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".page").hide();
-	$("#page-0").show();
+	$("#page-3").show();
 	$("#page-0").click(function(){
 		$("#page-1").show();
 	})
