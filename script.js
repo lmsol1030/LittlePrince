@@ -22,7 +22,7 @@ $(document).ready(function() {
         	typeSpeed: 100, callback: function(){ 
         		$("#page-2").fadeout(3000);
         		$("#page-3").show();
-      		});
+      		}
 	});
 });
 
