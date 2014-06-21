@@ -35,6 +35,10 @@ $(document).ready(function() {
 			});
 
 	});
+	var bez_path = new $.path.bezier({
+  	start: { x:-162, y:570, angle: -45}, end: {x:1200,y:680}
+	});
+	$("#page-3 .planet").animate({path : bez_path}, 4000);
 });
 
 
