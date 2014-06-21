@@ -44,9 +44,9 @@ $(document).ready(function(){
 	$('#page-3').show();
 	$("#planet").click(function(){
 		var bez_path = new $.path.bezier({
-			start: { x:100, y:356, angle: -55}, end: {x:1200,y:850}
+			start: { x:100, y:356, angle: -55}, end: {x:1200,y:800}
 		});
-		$("#page-3 #planet").animate({path : bez_path}, 3000);
+		$("#page-3 #planet").animate({path : bez_path}, 1500);
 	});
 	$(".bird").click(function(){
 		$("#page-3 #item1").fadeIn(3000);
