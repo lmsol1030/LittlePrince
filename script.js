@@ -78,7 +78,7 @@ $(document).ready(function(){
 	$("#page-4 .typo").click(function(){
 		$("#page-4 .text").show();
 		$("#page-4 .text").typed({
-			strings: ["넓은 바다 한가운데서 혼자 뗏목을 타고 표류하는 것보다 더 고립되어 있는 것처럼 느껴졌다!"],
+			strings: ["'나의 장미에 대해 책임이 있다....'이말을 결코 잊지않으려는 듯 어린왕자는 조용히 되뇌었다."],
 			typeSpeed: 130
 			});
 
