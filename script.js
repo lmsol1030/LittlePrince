@@ -9,7 +9,6 @@ $(document).ready(function() {
         	typeSpeed: 100, callback: function(){ 
         		$("#page-2").hide();
         		$("#page-3").show();
-}
       		});
 	});
 	$("#day").click(function(){
