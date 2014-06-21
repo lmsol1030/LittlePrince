@@ -24,14 +24,14 @@ $(document).ready(function() {
 			strings: ["가시는 쓸모없는 거야 꽃들이 심술부려 생긴거야"],
 			typeSpeed: 130,
 			callback: function(){
-				$("#page-0").fadeOut(3000);
-				$("#page-1").fadeIn(3000);
+				$("#page-1").fadeOut(3000);
+				$("#page-2").fadeIn(3000);
 				}
 			});
 
 		});
 	});
-*/
+
 	
 /*
 $(document).ready(function() {
