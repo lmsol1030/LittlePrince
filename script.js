@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".page").hide();
-	$("#page-0").show();
+	$("#page-3").show();
 
 	$("#day").click(function(){
 		$("#night").fadeIn(3000);
