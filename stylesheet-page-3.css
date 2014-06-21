@@ -5,34 +5,34 @@
 	display:fixed;
 }
 #page-3 #item1 {
-	top: 988px;
-	left: 162px;
-	height: 108px;
-        width: 44px;
+	top: 162px;
+	left: 988px;
+	height: 192px;
+	width: 127px;
 	background-image: url('images/page-3/item1.png');	
 	display: none;
 }
 #page-3 #item2 {
-	top: 1402px;
-	left: 16px;
-	height: 124px;
-        width: 104px;
+	top: 16px;
+	left: 1402px;
+	height: 253px;
+	width: 253px;
 	background-image: url('images/page-3/item2.png');	
 	display: none;
 }
 #page-3 #item3 {
-	top: 770px;
-	left: 144px;
-	height: 56px;
-    width: 36px;
+	top: 144px;
+	left: 700px;
+	height: 253px;
+	width: 253px;
 	background-image: url('images/page-3/item3.png');	
 	display: none;
 }
 #page-3 #item4 {
-	top: 1088px;
-	left: 36px;
-	height: 334px;
-    width: 112px;
+	top: 36px;
+	left: 1088px;
+	height: 354px;
+	width: 148px;
 	background-image: url('images/page-3/item4.png');	
 	display: none;
 }
@@ -45,17 +45,25 @@
 	top: 356px;
 	left: 100px;
 	height: 106px;
-        width: 102px;
+	width: 102px;
 	background-image: url('images/page-3/planet.png');	
 }	
+#page-3 .prince2{
+	top: 110px;
+	left: 950px;
+	height: 253px;
+	width: 253px;
+
+}
 #page-3 #prince {
-	top: 1136px;
-	left: 326px;
-	height: 136px;
-        width: 116px;
+	top: 110px;
+	left: 950px;
+	height: 253px;
+	width: 253px;
 	background-image: url('images/page-3/prince.png');	
 	display: none;
 }
+
 #page-3 #star {
 	background-image: url('images/page-3/star.png');	
 	display: none;
@@ -66,4 +74,11 @@
 	height:100px;
 	width:100px;
 	background-color:red;
+}
+#page-3 .typo{
+	top: 400px;
+	left: 200px;
+	height:300px;
+	width:500px;
+	background-color: blue;
 }
