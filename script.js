@@ -39,6 +39,7 @@ $(document).ready(function() {
 	
 });
 */
+/*
 $(document).ready(function(){
 	$(".page").hide();
 	$('#page-3').show();
@@ -70,6 +71,10 @@ $(document).ready(function(){
 
 		});
 	});
+*/	
+$(document).ready(function(){
+	$(".page").hide();
+	$('#page-4').show();
 	
 
 
