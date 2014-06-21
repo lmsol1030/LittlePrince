@@ -22,12 +22,7 @@ $(document).ready(function() {
 
 });
 
-$("#page-2 .airplane").click(function(){
-		$("#page-2 .cloud").animateSprite({
-				fps:7,
-				loop: true,
-		});
-	});
+
 
 
 /*
