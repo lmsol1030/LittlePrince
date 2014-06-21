@@ -1,6 +1,14 @@
 $(document).ready(function() {
 	$(".page").hide();
-	$("#page-3").show();
+	$("#page-0").show();
+	$("#page-0").click(function(){
+		$("page-1").show();
+	})
+
+
+$(document).ready(function() {
+	$(".page").hide();
+	$("#page-2").show();
 
 	$("#day").click(function(){
 		$("#night").fadeIn(3000);
