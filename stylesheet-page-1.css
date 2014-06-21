@@ -11,6 +11,17 @@
 
 	opacity: 0;
 }
+#page-1 .typo{
+	top: 400px;
+	left: 200px;
+	height:300px;
+	width:500px;
+}
+#page-1 .text {
+	font-size: 50px;
+	top: 400px;
+	left: 200px;
+}
 #page-1 #item1 {
 	background-image: url('images/page-1/item1.png');	
 	display: none;
