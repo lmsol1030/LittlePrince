@@ -13,7 +13,8 @@ $(document).ready(function() {
 	$("#night").click(function(){
 		$("#night").fadeOut(3000);
 	});
-	$("#page-2 .airplane").click(function(){
+	$("#page-2 .airplane").click(function(){	
+		$("#page-2 .cloud").show();
 		$("#page-2 .cloud").animateSprite({
 				fps:7,
 				loop: true,
