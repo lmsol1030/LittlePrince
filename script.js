@@ -13,17 +13,24 @@ $(document).ready(function() {
 	$("#night").click(function(){
 		$("#night").fadeOut(3000);
 	});
-	$("#page-2 .cloud").animateSprite({
-	    fps:7,
-	    complete: function(){
-	        // use complete only when you set animations with 'loop: false'
-    	}
+	$("#page-2 .airplane").click(function(){
+		$("#page-2 .cloud").animateSprite({
+				fps:7,
+				loop: true,
+		});
 	});
 	$("#page-2 .cloud").animateSprite('stop');
 	$("#page-2 .cloud").click(function(){
 		$("#page-2 .cloud").animateSprite('restart');
 	});
 });
+
+$("#page-2 .airplane").click(function(){
+		$("#page-2 .cloud").animateSprite({
+				fps:7,
+				loop: true,
+		});
+	});
 
 
 /*
