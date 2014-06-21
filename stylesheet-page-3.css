@@ -24,7 +24,7 @@
 	top: 770px;
 	left: 144px;
 	height: 56px;
-        width: 36px;
+    width: 36px;
 	background-image: url('images/page-3/item3.png');	
 	display: none;
 }
@@ -32,7 +32,7 @@
 	top: 1088px;
 	left: 36px;
 	height: 334px;
-        width: 112px;
+    width: 112px;
 	background-image: url('images/page-3/item4.png');	
 	display: none;
 }
@@ -59,4 +59,11 @@
 #page-3 #star {
 	background-image: url('images/page-3/star.png');	
 	display: none;
+}
+#page-3 .bird{
+	top:300px;
+	left:1100px;
+	height:100px;
+	width:100px;
+	background-color:red;
 }
