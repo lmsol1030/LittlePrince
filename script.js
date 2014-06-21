@@ -1,12 +1,12 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
 	$("#page-0").click(function(){
 		$("#page-0").fadeOut(3000);
 		$("#page-1").fadeIn(3000);
-	})
+	});
 });
-*/
+
 /*
 $(document).ready(function() {
 	$(".page").hide();
@@ -72,6 +72,7 @@ $(document).ready(function(){
 		});
 	});
 */	
+/*
 $(document).ready(function(){
 	$(".page").hide();
 	$('#page-4').show();
@@ -86,7 +87,7 @@ $(document).ready(function(){
 	
 	});
 
-
+*/
 /*
 $(document).ready(function() {
 	$("#cloud").click(function(){
