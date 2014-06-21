@@ -1,14 +1,14 @@
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
-		$("#page-2 .typo").click(function(){
-		$("#page-2 .text").show();
-		$("#page-2 .text").typed({
+		$("#page-0 .typo").click(function(){
+		$("#page-0 .text").show();
+		$("#page-0 .text").typed({
 			strings: ["Little price"],strings: ["0947704_kangdongkil. leemisol"]
 			typeSpeed: 130,
 			callback: function(){
-				$("#page-2").fadeOut(3000);
-				$("#page-3").fadeIn(3000);
+				$("#page-0").fadeOut(3000);
+				$("#page-1").fadeIn(3000);
 				}
 			});
 
