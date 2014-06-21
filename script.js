@@ -19,10 +19,7 @@ $(document).ready(function() {
 				loop: true,
 		});
 	});
-	$("#page-2 .cloud").animateSprite('stop');
-	$("#page-2 .cloud").click(function(){
-		$("#page-2 .cloud").animateSprite('restart');
-	});
+
 });
 
 $("#page-2 .airplane").click(function(){
