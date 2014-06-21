@@ -36,11 +36,7 @@
 	background-image: url('images/page-3/item4.png');	
 	display: none;
 }
-#page-3.text {
-	top: 500px;
-	left: 200px;
-	font-size: 50px;
-}
+
 #page-3 #planet {
 	top: 356px;
 	left: 100px;
@@ -81,4 +77,9 @@
 	height:300px;
 	width:500px;
 	background-color: blue;
+}
+#page-3.text {
+	top: 500px;
+	left: 200px;
+	font-size: 50px;
 }
