@@ -3,7 +3,8 @@ $(document).ready(function() {
 	$("#page-3").show();
 	$("#page-0").click(function(){
 		$("#page-1").show();
-	})
+	});
+});
 
 /*
 $(document).ready(function() {
