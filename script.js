@@ -9,7 +9,7 @@ $(document).ready(function() {
 		$("#night").fadeOut(3000);
 	});
 	$("#page-2 .cloud").animateSprite({
-	    fps:7,
+	    fps:3,
 	    complete: function(){
 	        // use complete only when you set animations with 'loop: false'
     	}
