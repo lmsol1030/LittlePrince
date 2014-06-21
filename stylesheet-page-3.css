@@ -5,18 +5,34 @@
 	display:fixed;
 }
 #page-3 #item1 {
+	top: 988px;
+	left: 162px;
+	height: 108px;
+        width: 44px;
 	background-image: url('images/page-3/item1.png');	
 	display: none;
 }
 #page-3 #item2 {
+	top: 1402px;
+	left: 16px;
+	height: 124px;
+        width: 104px;
 	background-image: url('images/page-3/item2.png');	
 	display: none;
 }
 #page-3 #item3 {
+	top: 770px;
+	left: 144px;
+	height: 56px;
+        width: 36px;
 	background-image: url('images/page-3/item3.png');	
 	display: none;
 }
 #page-3 #item4 {
+	top: 1088px;
+	left: 36px;
+	height: 334px;
+        width: 112px;
 	background-image: url('images/page-3/item4.png');	
 	display: none;
 }
@@ -26,10 +42,18 @@
 	left: 200px;
 }
 #page-3 #planet {
+	top: 356px;
+	left: 100px;
+	height: 106px;
+        width: 102px;
 	background-image: url('images/page-3/planet.png');	
 	display: none;
 }
 #page-3 #prince {
+	top: 1136px;
+	left: 326px;
+	height: 136px;
+        width: 116px;
 	background-image: url('images/page-3/prince.png');	
 	display: none;
 }
