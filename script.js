@@ -1,4 +1,4 @@
-/*$(document).ready(function() {
+$(document).ready(function() {
 	$(".page").hide();
 	$("#page-2").show();
 
@@ -19,13 +19,8 @@
 		$("#page-2 .cloud").animateSprite('restart');
 	});
 });
-*/
 
-$(document).ready(function() {
-	$(".page").hide();
-	$("#page-3").show();
 
-});
 
 /*
 $(document).ready(function() {
