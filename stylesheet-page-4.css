@@ -10,16 +10,17 @@
 	background-image: url('images/page-4/background2.png');	
 	display: none;
 }
+
+#page-4 .typo{
+	top: 500px;
+	left: 200px;
+	height: 300px;
+	width: 500px;
+}
 #page-4 .text {
 	font-size: 50px;
 	top: 500px; 
 	left: 200px;
-}
-#page-4 .typo{
-	top: 400px;
-	left: 200px;
-	height: 300px;
-	width: 500px;
 }
 #page-4 #fox {
 	top: 1185px;
