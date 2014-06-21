@@ -65,10 +65,12 @@ $(document).ready(function(){
 			callback: function(){
 				$("#page-3").fadeOut(3000);
 				$("#page-4").fadeIn(3000);
-			}
-		});
+				}
+			});
 
+		});
 	});
+	
 
 
 
