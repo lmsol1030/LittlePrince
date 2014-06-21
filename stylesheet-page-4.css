@@ -16,6 +16,10 @@
 	left: 200px;
 }
 #page-4 #fox {
+	top: 1185px;
+	left: 594px;
+	height: 102px;
+        width: 190px;
   	background-image: url('images/page-4/fox.png');
 }
 #page-4 #snow {
