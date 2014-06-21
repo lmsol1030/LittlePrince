@@ -24,7 +24,6 @@ $(document).ready(function() {
 			loop: true,
 		});
 	});
-	*/
 	$("#page-2 .typo").click(function(){
 		$("#page-2 .text").show();
 		$("#page-2 .text").typed({
@@ -37,13 +36,17 @@ $(document).ready(function() {
 			});
 
 	});
+	
+});
+*/
+$(document).ready(function(){
+	$(".page").hide();
+	$('#page-3').show();
 	var bez_path = new $.path.bezier({
   	start: { x:-162, y:570, angle: -45}, end: {x:1200,y:680}
 	});
 	$("#page-3 .planet").animate({path : bez_path}, 4000);
 });
-
-
 
 
 /*
