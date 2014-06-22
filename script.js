@@ -6,21 +6,22 @@ $(document).ready(function() {
 		$("#page-0 .text").show();
 		$("#page-0 .name").show();
 		$("#page-0 .text").typed({
-			strings: ["Little price"],
-			typeSpeed: 130,
-
-		});
-		$("#page-0 .name").typed({
-			strings: ["강동길"],
-			typeSpeed: 130,
-			callback: function(){
-				$("#page-0").fadeOut(3000);
-				$("#page-1").fadeIn(3000);
+		strings: ["Little price"],
+		typeSpeed: 130,
+		callback: function(){
+			$("#page-0 .name").typed({
+				strings: ["강동길"],
+				typeSpeed: 130,
+				callback: function(){
+					$("#page-0").fadeOut(3000);
+					$("#page-1").fadeIn(3000);
 				}
-		});
+			});
 		
+		});
+	
 	});
-});
+
 
 
 /*
