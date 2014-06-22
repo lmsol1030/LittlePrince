@@ -90,4 +90,5 @@ background-image: url('images/page-1/leaves.png');
 -webkit-transform: translateZ(0);
 -moz-transform: translateZ(0);
 transform: translateZ(0);
+display:none;
 }
