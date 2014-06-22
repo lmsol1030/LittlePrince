@@ -50,7 +50,7 @@ $(document).ready(function() {
 			});
 
 		});
-		$("#page-1 .octoberLeaves")({
+		$("#page-1 .octoberLeaves").octoberLeaves({
 		leafStyles: 3,      // Number of leaf styles in the sprite (leaves.png)
 		speedC: 2,  // Speed of leaves
 		rotation: 1,// Define rotation of leaves
