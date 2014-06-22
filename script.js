@@ -128,7 +128,7 @@ $(document).ready(function(){
 	$("#page-3 .typo").click(function(){
 		$("#page-3 .text").show();
 		$("#page-3 .text").typed({
-			strings: ["어린왕자는 아마도 철새들의 이동을 이용해 별을 떠나왔을 것이다."],
+			strings: ['"어린왕자는 아마도 철새들의 이동을 이용해 별을 떠나왔을 것이다."'],
 			typeSpeed: 130,
 			callback: function(){
 				$("#page-3").fadeOut(3000);
@@ -144,7 +144,7 @@ $(document).ready(function(){
 	});
 	$("#page-3 #star").dblclick(function(){
 		var bez_path = new $.path.bezier({
-			start: { x:250, y:500, angle: -65}, end: {x:1300,y:700}
+			start: { x:350, y:350, angle: -65}, end: {x:1300,y:700}
 		});
 		$("#page-3 #star").animate({path : bez_path}, 1500);
 	});
