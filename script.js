@@ -2,25 +2,27 @@
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
-		$("#page-0 .typo").click(function(){
+	//page-0
+	$("#page-0 .typo").click(function(){
 		$("#page-0 .text").show();
 		$("#page-0 .name").show();
 		$("#page-0 .text").typed({
-		strings: ["Little price"],
-		typeSpeed: 130,
-		callback: function(){
-			$("#page-0 .name").typed({
-				strings: ["강동길"],
-				typeSpeed: 130,
-				callback: function(){
-					$("#page-0").fadeOut(3000);
-					$("#page-1").fadeIn(3000);
-				}
-			});
-		
+			strings: ["Little price"],
+			typeSpeed: 130,
+			callback: function(){
+				$("#page-0 .name").typed({
+					strings: ["강동길"],
+					typeSpeed: 130,
+					callback: function(){
+						$("#page-0").fadeOut(3000);
+						$("#page-1").fadeIn(3000);
+					}
+				});
+			}
 		});
+	)};
 	
-	$("#page-1").show();
+	//page1
 	$("#page-1 .flower").click(function(){	
 		$("#page-1 #rose1").delay("slow").fadeIn();
 		$("#page-1 #rose1").animateSprite({
@@ -60,9 +62,7 @@ $(document).ready(function() {
 		size: 40,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
 		cycleSpeed: 30      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 		
-		}); 
-	});
-});
+		});
 	
 /*
 $(document).ready(function() {
