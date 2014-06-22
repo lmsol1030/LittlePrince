@@ -32,12 +32,12 @@ $(document).ready(function() {
 			fps:3,
 			loop: true,
 		});
-		$("#page-1 #rose2").show();
+		$("#page-1 #rose2").delay(2000).show();
 		$("#page-1 #rose2").animateSprite({
 			fps:3,
 			loop: true,
 		});
-		$("#page-1 #rose3").show();
+		$("#page-1 #rose3").delay(3000).show();
 		$("#page-1 #rose3").animateSprite({
 			fps:3,
 			loop: true,
