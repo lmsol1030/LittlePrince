@@ -158,6 +158,10 @@ $(document).ready(function(){
 			});
 
 		});
+	$("#page-4 #fox").click(function(){
+		$("#page-3 #fox").animate({top:'+=50px'},500);
+		$("#page-3 #fox").animate({top:'-=50px'},500);
+	});
 	
 	});
 
