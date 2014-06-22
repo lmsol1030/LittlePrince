@@ -83,11 +83,11 @@
     	width: 500px;
 
 }
-#page-1 .leaf {
-	position: absolute;
-	background-color: transparent;
-	background-image: url('images/page-1/leaves.png');
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	transform: translateZ(0);
+.october-leaf {
+position: absolute;
+background-color: transparent;
+background-image: url('images/page-1/leaves.png');
+-webkit-transform: translateZ(0);
+-moz-transform: translateZ(0);
+transform: translateZ(0);
 }
