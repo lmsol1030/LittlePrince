@@ -6,23 +6,23 @@
 }
 #page-3 #item1 {
 	top: 162px;
-	left: 988px;
-	height: 192px;
-	width: 127px;
+	left: 708px;
+	height: 127px;
+	width: 192px;
 	background-image: url('images/page-3/item1.png');	
 	display: none;
 }
 #page-3 #item2 {
 	top: 16px;
-	left: 1402px;
+	left: 500px;
 	height: 253px;
 	width: 253px;
 	background-image: url('images/page-3/item2.png');	
 	display: none;
 }
 #page-3 #item3 {
-	top: 144px;
-	left: 700px;
+	top: 300px;
+	left: 750px;
 	height: 253px;
 	width: 253px;
 	background-image: url('images/page-3/item3.png');	
@@ -30,9 +30,9 @@
 }
 #page-3 #item4 {
 	top: 36px;
-	left: 1088px;
-	height: 354px;
-	width: 148px;
+	left: 100px;
+	height: 148px;
+	width: 354px;
 	background-image: url('images/page-3/item4.png');	
 	display: none;
 }
@@ -61,15 +61,17 @@
 }
 
 #page-3 #star {
+	top: 350px;
+	left: 350px;
+	height: 50px;
+	width: 50px;
 	background-image: url('images/page-3/star.png');	
-	display: none;
 }
 #page-3 .bird{
-	top:300px;
-	left:1100px;
-	height:100px;
-	width:100px;
-	background-color:red;
+	top:150px;
+	left:300px;
+	height:250px;
+	width:250px;
 }
 #page-3 .typo{
 	top: 400px;
