@@ -24,17 +24,17 @@ $(document).ready(function() {
 		$("#page-1 #rose1").delay("slow").fadeIn();
 		$("#page-1 #rose1").animateSprite({
 			fps:3,
-			loop: true,
+			loop: false,
 		});
 		$("#page-1 #rose2").delay(2000).fadeIn();
 		$("#page-1 #rose2").animateSprite({
 			fps:3,
-			loop: true,
+			loop: false,
 		});
 		$("#page-1 #rose3").delay(4000).fadeIn();
 		$("#page-1 #rose3").animateSprite({
 			fps:3,
-			loop: true,
+			loop: false,
 		});
 	
 	});
