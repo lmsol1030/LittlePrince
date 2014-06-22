@@ -11,7 +11,7 @@ $(document).ready(function() {
 			typeSpeed: 130,
 			callback: function(){
 				$("#page-0 .name").typed({
-					strings: ["강동길"],
+					strings: ["0947704_강동길, 1240197_이미솔"],
 					typeSpeed: 130,
 					callback: function(){
 						$("#page-0").fadeOut(3000);
@@ -43,7 +43,7 @@ $(document).ready(function() {
 		$("#page-1 .typo").click(function(){
 		$("#page-1 .text").show();
 		$("#page-1 .text").typed({
-			strings: ["가시는 쓸모없는 거야 꽃들이 심술부려 생긴거야"],
+			strings: ['"가시는 쓸모없는 거야 꽃들이 심술부려 생긴거야..."'],
 			typeSpeed: 130,
 			callback: function(){
 				$("#page-1").fadeOut(3000);
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 		});
 		$("#page-1 .bg").click(function(){
-			$(".october-leaf").show();
+			$(".october-leaf").fadeIn(1000);
 				$("#page-1").octoberLeaves({
 				leafStyles: 3,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
