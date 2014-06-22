@@ -52,7 +52,7 @@ $(document).ready(function() {
 			});
 
 		});
-		$("#page-1").click(function(){
+		$("#page-1 .bg").click(function(){
 			$(".october-leaf").show();
 				$("#page-1").octoberLeaves({
 				leafStyles: 3,      // Number of leaf styles in the sprite (leaves.png)
