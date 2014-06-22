@@ -20,6 +20,12 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-1").show();
+	$("#page-1").click(function(){
+		var bez_path = new $.path.bezier({
+			start: { x:100, y:356, angle: -55}, end: {x:1200,y:800}
+		});
+		$("#page-1 #item1").animate({path : bez_path}, 1500);
+	});
 	$("#page-1 .flower").click(function(){	
 		$("#page-1 #rose1").show();
 		$("#page-1 #rose1").animateSprite({
