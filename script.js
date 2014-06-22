@@ -20,7 +20,6 @@ $(document).ready(function() {
 		
 		});
 	
-	$(".page").hide();
 	$("#page-1").show();
 	$("#page-1 .flower").click(function(){	
 		$("#page-1 #rose1").delay("slow").fadeIn();
