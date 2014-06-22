@@ -27,17 +27,17 @@ $(document).ready(function() {
 		$("#page-1 #item1").animate({path : bez_path}, 1500);
 	});
 	$("#page-1 .flower").click(function(){	
-		$("#page-1 #rose1").show();
+		$("#page-1 #rose1").delay("slow").fadeIn();
 		$("#page-1 #rose1").animateSprite({
 			fps:3,
 			loop: true,
 		});
-		$("#page-1 #rose2").delay(2000).show();
+		$("#page-1 #rose2").delay(2000).fadeIn();
 		$("#page-1 #rose2").animateSprite({
 			fps:3,
 			loop: true,
 		});
-		$("#page-1 #rose3").delay(3000).show();
+		$("#page-1 #rose3").delay(3000).fadeIn();
 		$("#page-1 #rose3").animateSprite({
 			fps:3,
 			loop: true,
