@@ -61,8 +61,8 @@ $(document).ready(function() {
 				rotation: 1,// Define rotation of leaves
 				rotationTrue: 1,    // Whether leaves rotate (1) or not (0)
 				numberOfLeaves: 10, // Number of leaves
-				size: 40,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
-				cycleSpeed: 10     // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
+				size: 70,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
+				cycleSpeed: 30     // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 				});
 		});
 });
