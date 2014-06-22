@@ -115,8 +115,7 @@ $(document).ready(function(){
 	$(".bird").click(function(){
 		$("#page-3 #item1").fadeIn(3000);
 		$("#page-3 #item2").fadeIn(3000);
-		$("#page-3 #item3").fadeIn(3000);
-		$("#page-3 #item4").fadeIn(3000);
+	
 	});
 	$("#page-3 .prince2").click(function(){
 		$("#page-3 #prince").fadeIn(3000);
