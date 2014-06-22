@@ -1,4 +1,4 @@
-/*
+
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
@@ -15,7 +15,7 @@ $(document).ready(function() {
 
 		});
 	});
-*/
+
 
 $(document).ready(function() {
 	$(".page").hide();
