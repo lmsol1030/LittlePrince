@@ -58,7 +58,7 @@ $(document).ready(function() {
 				$("#page-1").octoberLeaves({
 				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
-				rotation: 1,// Define rotation of leaves
+				rotation: 10,// Define rotation of leaves
 				rotationTrue: 0,    // Whether leaves rotate (1) or not (0)
 				numberOfLeaves: 20, // Number of leaves
 				size: 80,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
