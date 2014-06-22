@@ -56,12 +56,12 @@ $(document).ready(function() {
 		$("#page-1 .bg").click(function(){
 			$(".october-leaf").fadeIn(1000);
 				$("#page-1").octoberLeaves({
-				leafStyles: 3,      // Number of leaf styles in the sprite (leaves.png)
+				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
 				rotation: 1,// Define rotation of leaves
 				rotationTrue: 1,    // Whether leaves rotate (1) or not (0)
-				numberOfLeaves: 15, // Number of leaves
-				size: 40,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
+				numberOfLeaves: 30, // Number of leaves
+				size: 80,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
 				cycleSpeed: 30      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 				});
 		});
