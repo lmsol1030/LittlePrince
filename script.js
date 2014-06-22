@@ -63,7 +63,7 @@ $(document).ready(function() {
 				size: 40,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
 				cycleSpeed: 30      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 				callback: function(){
-					$(".october-leaf").fadeOut('fast');
+					$(".october-leaf").fadeOut("fast");
 				}
 				});
 		});
