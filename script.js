@@ -21,6 +21,7 @@ $(document).ready(function() {
 	$(".page").hide();
 	$("#page-1").show();
 	$("#page-1").click(function(){
+		$("#page-1 #item1").show();
 		var bez_path = new $.path.bezier({
 			start: { x:100, y:356, angle: -55}, end: {x:1200,y:800}
 		});
