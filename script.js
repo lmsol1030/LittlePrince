@@ -31,6 +31,11 @@ $(document).ready(function() {
 			fps:3,
 			loop: true,
 		});
+		$("#page-1 #rose3").show();
+		$("#page-1 #rose3").animateSprite({
+			fps:3,
+			loop: true,
+		});
 	
 	});
 		$("#page-1 .typo").click(function(){
