@@ -9,16 +9,7 @@ $(document).ready(function() {
 			typeSpeed: 130,
 
 		});
-			$("#page-0 .name").typed({
-			strings: ["0947704_강동길, 1240197_이미솔"],
-			typeSpeed: 130,
-			callback: function(){
-				$("#page-0").fadeOut(3000);
-				$("#page-1").fadeIn(3000);
-				}
-			});
-
-		});
+		
 	});
 
 
