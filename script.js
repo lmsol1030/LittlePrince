@@ -19,8 +19,8 @@ $(document).ready(function() {
 					}
 				});
 			}
-	)};
-	
+		});
+	});
 	//page1
 	$("#page-1 .flower").click(function(){	
 		$("#page-1 #rose1").delay("slow").fadeIn();
@@ -62,6 +62,7 @@ $(document).ready(function() {
 		cycleSpeed: 30      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 		
 		});
+});
 	
 /*
 $(document).ready(function() {
