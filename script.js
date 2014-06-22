@@ -108,6 +108,7 @@ $(document).ready(function(){
 	$('#page-3').show();
 	$("#page-3 #planet").click(function(){
 		$("#page-3 #planet").animate({left:'+=50px'},500);
+		$("#page-3 #planet").animate({left:'-=50px'},500);
 	});
 	$(".bird").click(function(){
 		$("#page-3 #item1").fadeIn(3000);
