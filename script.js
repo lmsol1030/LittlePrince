@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
@@ -14,12 +15,20 @@ $(document).ready(function() {
 
 		});
 	});
-/*
+*/
+
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-1").show();
 		$("#page-1 .typo").click(function(){
 		$("#page-1 .text").show();
+		$("#page-1 .flower").click(function(){	
+		$("#page-1 #rose1").show();
+		$("#page-1 #rose1").animateSprite({
+			fps:7,
+			loop: true,
+		});
+	});
 		$("#page-1 .text").typed({
 			strings: ["가시는 쓸모없는 거야 꽃들이 심술부려 생긴거야"],
 			typeSpeed: 130,
@@ -32,7 +41,7 @@ $(document).ready(function() {
 		});
 	});
 
-*/	
+	
 /*
 $(document).ready(function() {
 	$(".page").hide();
