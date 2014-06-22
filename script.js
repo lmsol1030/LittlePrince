@@ -13,7 +13,10 @@ $(document).ready(function() {
 		$("#page-0 .name").typed({
 			strings: ["강동길"],
 			typeSpeed: 130,
-
+			callback: function(){
+				$("#page-0").fadeOut(3000);
+				$("#page-1").fadeIn(3000);
+				}
 		});
 		
 	});
