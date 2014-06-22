@@ -49,7 +49,7 @@
 }
 #page-1 #rose2 {
 	background-size:auto;
-	top: 400px;
+	top: 480px;
 	left: 1200px;
 	height: 130px;
     	width: 130px;
@@ -57,10 +57,10 @@
 }
 #page-1 #rose3{
 	background-size:auto;
-	top: 1375px;
-	left: 604px;
+	top: 550px;
+	left: 1100px;
 	height:130px;
-    width: 130px;
+    	width: 130px;
 	background-image: url('images/page-1/flower.png');	
 }
 
