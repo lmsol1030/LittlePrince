@@ -25,18 +25,25 @@
 #page-1 #item1 {
 	height:256px;
     	width: 253px;
-	background-image: url('images/page-1/item1.png');	
+	background-image: url('images/page-1/item1.png');
+	display:none;
 	
 }
 #page-1 #item2 {
+	height:256px;
+    	width: 253px;
 	background-image: url('images/page-1/item2.png');	
 	display: none;
 }
 #page-1 #item3 {
+	height:256px;
+    	width: 253px;
 	background-image: url('images/page-1/item3.png');	
 	display: none;
 }
 #page-1 #item4 {
+	height:256px;
+    	width: 253px;
 	background-image: url('images/page-1/item4.png');	
 	display: none;
 }
