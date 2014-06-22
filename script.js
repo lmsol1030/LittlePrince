@@ -157,8 +157,8 @@ $(document).ready(function(){
 
 		});
 	$("#page-4 #fox").click(function(){
-		$("#page-4 #fox").animate({top:'-=100px'},250);
-		$("#page-4 #fox").animate({top:'+=100px'},250);
+		$("#page-4 #fox").animate({top:'-=80px'},200);
+		$("#page-4 #fox").animate({top:'+=80px'},200);
 	});
 	
 	});
