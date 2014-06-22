@@ -106,16 +106,21 @@ $(document).ready(function() {
 $(document).ready(function(){
 	$(".page").hide();
 	$('#page-3').show();
-	$("#planet").click(function(){
+	$("#page-3 #planet").click(function(){
+		$("#page-3 #planet").animate({left:'50px'},500);
+	});
+	$("#planet").dblclick(function(){
 		var bez_path = new $.path.bezier({
-			start: { x:100, y:356, angle: -55}, end: {x:1200,y:800}
+			start: {x:50,y:356,angle: -55}, end: {x:1100,y:0}
 		});
 		$("#page-3 #planet").animate({path : bez_path}, 1500);
 	});
 	$(".bird").click(function(){
 		$("#page-3 #item1").fadeIn(3000);
 		$("#page-3 #item2").fadeIn(3000);
-	
+		$("#page-3 #item3").fadeIn(3000);
+		$("#page-3 #item4").fadeIn(3000);
+
 	});
 	$("#page-3 .prince2").click(function(){
 		$("#page-3 #prince").fadeIn(3000);
@@ -128,11 +133,22 @@ $(document).ready(function(){
 			callback: function(){
 				$("#page-3").fadeOut(3000);
 				$("#page-4").fadeIn(3000);
-				}
-			});
-
+			}
 		});
+
 	});
+	$("#page-3 #star").click(function() {
+		$(this).addClass('shake');
+		var self = this;
+		setTimeout(function(){$(self).removeClass('shake');}, 500);
+	});
+	$("#page-3 #star").dblclick(function(){
+		var bez_path = new $.path.bezier({
+			start: { x:250, y:500, angle: -65}, end: {x:1300,y:700}
+		});
+		$("#page-3 #star").animate({path : bez_path}, 1500);
+	});
+});
 	
 /*
 $(document).ready(function(){
