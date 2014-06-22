@@ -19,7 +19,6 @@ $(document).ready(function() {
 					}
 				});
 			}
-		});
 	)};
 	
 	//page1
