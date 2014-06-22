@@ -1,4 +1,4 @@
-
+/*
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
@@ -21,10 +21,10 @@ $(document).ready(function() {
 		});
 	
 	});
+*/
 
 
 
-/*
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-1").show();
@@ -58,7 +58,7 @@ $(document).ready(function() {
 			});
 
 		});
-		$(document).octoberLeaves({
+		$("#page-1").octoberLeaves({
 		leafStyles: 3,      // Number of leaf styles in the sprite (leaves.png)
 		speedC: 2,  // Speed of leaves
 		rotation: 1,// Define rotation of leaves
@@ -69,7 +69,7 @@ $(document).ready(function() {
 		
 		}); 
 	});
-*/
+
 	
 /*
 $(document).ready(function() {
