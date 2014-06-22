@@ -107,13 +107,7 @@ $(document).ready(function(){
 	$(".page").hide();
 	$('#page-3').show();
 	$("#page-3 #planet").click(function(){
-		$("#page-3 #planet").animate({left:'50px'},500);
-	});
-	$("#planet").dblclick(function(){
-		var bez_path = new $.path.bezier({
-			start: {x:50,y:356,angle: -55}, end: {x:1100,y:0}
-		});
-		$("#page-3 #planet").animate({path : bez_path}, 1500);
+		$("#page-3 #planet").animate({left:'+=50px'},500);
 	});
 	$(".bird").click(function(){
 		$("#page-3 #item1").fadeIn(3000);
