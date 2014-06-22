@@ -37,7 +37,7 @@ $(document).ready(function() {
 			fps:3,
 			loop: true,
 		});
-		$("#page-1 #rose3").delay(3000).fadeIn();
+		$("#page-1 #rose3").delay(4000).fadeIn();
 		$("#page-1 #rose3").animateSprite({
 			fps:3,
 			loop: true,
