@@ -9,6 +9,11 @@ $(document).ready(function() {
 			typeSpeed: 130,
 
 		});
+		$("#page-0 .name").typed({
+			strings: ["Little price"],
+			typeSpeed: 130,
+
+		});
 		
 	});
 });
