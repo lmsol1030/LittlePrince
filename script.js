@@ -7,11 +7,6 @@ $(document).ready(function() {
 		$("#page-0 .text").typed({
 			strings: ["Little price"],
 			typeSpeed: 130,
-			callback: function(){
-				$("#page-0").fadeOut(3000);
-				$("#page-1").fadeIn(3000);
-				}
-			});
 
 		});
 			$("#page-0 .name").typed({
