@@ -64,6 +64,7 @@ $(document).ready(function() {
 				cycleSpeed: 30      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 				callback: function(){
 					$(".october-leaf").fadeOut('fast');
+				}
 				});
 		});
 });
