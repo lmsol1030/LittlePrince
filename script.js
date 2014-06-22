@@ -59,10 +59,10 @@ $(document).ready(function() {
 				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
 				rotation: 1,// Define rotation of leaves
-				rotationTrue: 1,    // Whether leaves rotate (1) or not (0)
-				numberOfLeaves: 30, // Number of leaves
+				rotationTrue: 0,    // Whether leaves rotate (1) or not (0)
+				numberOfLeaves: 20, // Number of leaves
 				size: 80,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
-				cycleSpeed: 30      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
+				cycleSpeed: 20      // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 				});
 		});
 });
