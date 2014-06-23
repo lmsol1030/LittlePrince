@@ -69,9 +69,9 @@
 }
 #page-3 .bird{
 	top:50px;
-	left:100px;
+	left:50px;
 	height:250px;
-	width:400px;
+	width:600px;
 	background-color:blue;
 
 }
@@ -80,6 +80,8 @@
 	left: 100px;
 	height:400px;
 	width:500px;
+	background-color:blue;
+	
 }
 #page-3 .text {
 	top: 600px;
