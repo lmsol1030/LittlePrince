@@ -1,4 +1,4 @@
-/*
+
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 		});
 		$("#page-1 .bg").click(function(){
-			$(".october-leaf").fadeIn(1000);
+			$("#page-1 .october-leaf").fadeIn(1000);
 				$("#page-1").octoberLeaves({
 				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
@@ -66,7 +66,7 @@ $(document).ready(function() {
 				});
 		});
 });
-*/
+
 	
 /*
 $(document).ready(function() {
@@ -144,7 +144,7 @@ $(document).ready(function(){
 	});
 });
 */	
-
+/*
 $(document).ready(function(){
 	$(".page").hide();
 	$('#page-4').show();
@@ -163,7 +163,7 @@ $(document).ready(function(){
 	
 	});
 
-
+*/
 /*
 $(document).ready(function() {
 	$("#cloud").click(function(){
