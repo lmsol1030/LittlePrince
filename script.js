@@ -162,7 +162,7 @@ $(document).ready(function() {
 			$("#page-4 #fox").animate({top:'+=80px'},200);
 		});
 		$("#page-4 .bg").click(function(){
-  		$(".october-leaf").css("background-image","url('images/page-4/sn.png')").fadeIn(1000);
+  		$(".october-leaf").css("background-image","url('images/page-4/s.png')").fadeIn(1000);
 		});
 });
 
