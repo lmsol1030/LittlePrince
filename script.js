@@ -139,32 +139,30 @@ $(document).ready(function() {
 		
 		$("#page-3 #star").animate({path : bez_path}, 1500);
 	});
-});
+
 
 	
-/*
-$(document).ready(function(){
-	$(".page").hide();
-	$('#page-4').show();
-	$("#page-4 .typo").click(function(){
-		$("#page-4 .text").show();
-		$("#page-4 .text").typed({
-			strings: ["'나의 장미에 대해 책임이 있다....'이말을 결코 잊지않으려는 듯 어린왕자는 조용히 되뇌었다."],
-			typeSpeed: 130
+
+//page-4
+		$("#page-4 .typo").click(function(){
+			$("#page-4 .text").show();
+			$("#page-4 .text").typed({
+				strings: ["'나의 장미에 대해 책임이 있다....'이말을 결코 잊지않으려는 듯 어린왕자는 조용히 되뇌었다."],
+				typeSpeed: 130
 			});
 
 		});
-	$("#page-4 #fox").click(function(){
-		$("#page-4 #fox").animate({top:'-=80px'},200);
-		$("#page-4 #fox").animate({top:'+=80px'},200);
-	});
-	$("#page-4 .bg").click(function(){
-  	$(".october-leaf").css("background-image","url('images/page-4/sno.png')").fadeIn(1000);
-	});
-	
-	});
+		$("#page-4 #fox").click(function(){
+			$("#page-4 #fox").animate({top:'-=80px'},200);
+			$("#page-4 #fox").animate({top:'+=80px'},200);
+		});
+		$("#page-4 .bg").click(function(){
+  		$(".october-leaf").css("background-image","url('images/page-4/sno.png')").fadeIn(1000);
+		});
+});
 
-*/
+
+
 /*
 $(document).ready(function() {
 	$("#cloud").click(function(){
