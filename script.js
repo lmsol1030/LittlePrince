@@ -148,7 +148,7 @@ $(document).ready(function() {
 			$("#page-4 .text").show();
 			$("#page-4 .text").typed({
 				strings: ["'나의 장미에 대해 책임이 있다....'이말을 결코 잊지않으려는 듯 어린왕자는 조용히 되뇌었다."],
-				typeSpeed: 80
+				typeSpeed: 80,
 				callback: function(){
 					$("#page-4").fadeOut(3000);
 					$("#page-0").fadeIn(3000);
