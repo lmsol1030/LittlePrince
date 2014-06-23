@@ -8,8 +8,9 @@
 #page-4 .typo{
 	top: 500px;
 	left: 200px;
-	height: 300px;
+	height: 500px;
 	width: 500px;
+	background-color:blue;
 }
 #page-4 .text {
 	font-size: 50px;
