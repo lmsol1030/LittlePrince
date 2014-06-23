@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
 	//page-0
-	$("#page-0 .typo").click(function(){
+	$("#page-0").click(function(){
 		$("#page-0 .text").show();
 		$("#page-0 .name").show();
 		$("#BgSound")[0].load();
