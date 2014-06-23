@@ -160,7 +160,7 @@ $(document).ready(function() {
   		$(".october-leaf").css("background-image","url('images/page-4/sno.png')").fadeIn(1000);
 		});
 });
-
+});
 
 
 /*
