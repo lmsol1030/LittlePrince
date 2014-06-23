@@ -54,7 +54,7 @@ $(document).ready(function() {
 
 		});
 		$("#page-1 .bg").click(function(){
-			$("#page-1 .october-leaf").fadeIn(1000);
+			$(".october-leaf").fadeIn(1000);
 				$("#page-1").octoberLeaves({
 				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
