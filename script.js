@@ -136,8 +136,10 @@ $(document).ready(function() {
 			var bez_path = new $.path.bezier({
 			start: { x:350, y:350, angle: -65}, end: {x:1300,y:700}
 			});
+		
 		$("#page-3 #star").animate({path : bez_path}, 1500);
 	});
+});
 
 	
 /*
