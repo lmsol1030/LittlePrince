@@ -1,4 +1,4 @@
-/*
+
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
@@ -6,6 +6,8 @@ $(document).ready(function() {
 	$("#page-0 .typo").click(function(){
 		$("#page-0 .text").show();
 		$("#page-0 .name").show();
+		$("#BgSound")[0].load();
+		$("#BgSound")[0].play();
 		$("#page-0 .text").typed({
 			strings: ["Little price"],
 			typeSpeed: 130,
@@ -20,6 +22,9 @@ $(document).ready(function() {
 				});
 			}
 		});
+	
+	
+	});
 	});
 	//page1
 	$("#page-1 .flower").click(function(){	
@@ -144,7 +149,7 @@ $(document).ready(function(){
 	});
 });
 */	
-
+/*
 $(document).ready(function(){
 	$(".page").hide();
 	$('#page-4').show();
@@ -166,7 +171,7 @@ $(document).ready(function(){
 	
 	});
 
-
+*/
 /*
 $(document).ready(function() {
 	$("#cloud").click(function(){
