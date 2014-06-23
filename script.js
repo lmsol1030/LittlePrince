@@ -115,6 +115,18 @@ $(document).ready(function() {
 		$("#page-3 .prince2").click(function(){
 			$("#page-3 #prince").fadeIn(3000);
 		});
+		$("#page-3 #star").click(function() {
+			$(this).addClass('shake');
+			var self = this;
+			setTimeout(function(){$(self).removeClass('shake');}, 500);
+		});
+		$("#page-3 #star").dblclick(function(){
+			var bez_path = new $.path.bezier({
+			start: { x:350, y:350, angle: -65}, end: {x:1300,y:700}
+			});
+		
+		$("#page-3 #star").animate({path : bez_path}, 1500);
+		
 		$("#page-3 .typo").click(function(){
 			$("#page-3 .text").show();
 			$("#page-3 .text").typed({
@@ -127,18 +139,7 @@ $(document).ready(function() {
 			});
 
 		});
-		$("#page-3 #star").click(function() {
-			$(this).addClass('shake');
-			var self = this;
-			setTimeout(function(){$(self).removeClass('shake');}, 500);
-		});
-		$("#page-3 #star").dblclick(function(){
-			var bez_path = new $.path.bezier({
-			start: { x:350, y:350, angle: -65}, end: {x:1300,y:700}
-			});
-		
-		$("#page-3 #star").animate({path : bez_path}, 1500);
-	});
+	
 
 
 	
