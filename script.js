@@ -69,84 +69,76 @@ $(document).ready(function() {
 				cycleSpeed: 30     // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
 				});
 		});
-});
 
 	
-/*
-$(document).ready(function() {
-	$(".page").hide();
-	$("#page-2").show();
-	$("#day").click(function(){
-		$("#night").fadeIn(3000);
-	});
-	$("#night").click(function(){
-		$("#night").fadeOut(3000);
-	});
-	$("#page-2 .airplane").click(function(){	
-		$("#page-2 .cloud").show();
-		$("#page-2 .cloud").animateSprite({
-			fps:7,
-			loop: false,
+//page2
+		$("#day").click(function(){
+			$("#night").fadeIn(3000);
+			});
+		$("#night").click(function(){
+			$("#night").fadeOut(3000);
 		});
-	});
-	$("#page-2 .typo").click(function(){
-		$("#page-2 .text").show();
-		$("#page-2 .text").typed({
-			strings: ['"넓은 바다 한가운데서 혼자 뗏목을 타고 표류하는 것보다 더 고립되어 있는 것처럼 느껴졌다!"'],
-			typeSpeed: 130,
-			callback: function(){
-				$("#page-2").fadeOut(3000);
-				$("#page-3").fadeIn(3000);
+		$("#page-2 .airplane").click(function(){	
+			$("#page-2 .cloud").show();
+			$("#page-2 .cloud").animateSprite({
+				fps:7,
+				loop: false,
+			});
+		});
+		$("#page-2 .typo").click(function(){
+			$("#page-2 .text").show();
+			$("#page-2 .text").typed({
+				strings: ['"넓은 바다 한가운데서 혼자 뗏목을 타고 표류하는 것보다 더 고립되어 있는 것처럼 느껴졌다!"'],
+				typeSpeed: 130,
+				callback: function(){
+					$("#page-2").fadeOut(3000);
+					$("#page-3").fadeIn(3000);
+					}
+			});
+
+		});
+	
+
+
+//page-3
+		$("#page-3 #planet").click(function(){
+			$("#page-3 #planet").animate({left:'+=50px'},500);
+			$("#page-3 #planet").animate({left:'-=50px'},500);
+		});
+		$(".bird").click(function(){
+			$("#page-3 #item1").fadeIn(3000);
+			$("#page-3 #item2").fadeIn(3000);
+			$("#page-3 #item3").fadeIn(3000);
+			$("#page-3 #item4").fadeIn(3000);
+
+		});
+		$("#page-3 .prince2").click(function(){
+			$("#page-3 #prince").fadeIn(3000);
+		});
+		$("#page-3 .typo").click(function(){
+			$("#page-3 .text").show();
+			$("#page-3 .text").typed({
+				strings: ['"어린왕자는 아마도 철새들의 이동을 이용해 별을 떠나왔을 것이다."'],
+				typeSpeed: 130,
+				callback: function(){
+					$("#page-3").fadeOut(3000);
+					$("#page-4").fadeIn(3000);
 				}
 			});
 
-	});
-	
-});
-*/
-
-/*
-$(document).ready(function(){
-	$(".page").hide();
-	$('#page-3').show();
-	$("#page-3 #planet").click(function(){
-		$("#page-3 #planet").animate({left:'+=50px'},500);
-		$("#page-3 #planet").animate({left:'-=50px'},500);
-	});
-	$(".bird").click(function(){
-		$("#page-3 #item1").fadeIn(3000);
-		$("#page-3 #item2").fadeIn(3000);
-		$("#page-3 #item3").fadeIn(3000);
-		$("#page-3 #item4").fadeIn(3000);
-
-	});
-	$("#page-3 .prince2").click(function(){
-		$("#page-3 #prince").fadeIn(3000);
-	});
-	$("#page-3 .typo").click(function(){
-		$("#page-3 .text").show();
-		$("#page-3 .text").typed({
-			strings: ['"어린왕자는 아마도 철새들의 이동을 이용해 별을 떠나왔을 것이다."'],
-			typeSpeed: 130,
-			callback: function(){
-				$("#page-3").fadeOut(3000);
-				$("#page-4").fadeIn(3000);
-			}
 		});
-
-	});
-	$("#page-3 #star").click(function() {
-		$(this).addClass('shake');
-		var self = this;
-		setTimeout(function(){$(self).removeClass('shake');}, 500);
-	});
-	$("#page-3 #star").dblclick(function(){
-		var bez_path = new $.path.bezier({
+		$("#page-3 #star").click(function() {
+			$(this).addClass('shake');
+			var self = this;
+			setTimeout(function(){$(self).removeClass('shake');}, 500);
+		});
+		$("#page-3 #star").dblclick(function(){
+			var bez_path = new $.path.bezier({
 			start: { x:350, y:350, angle: -65}, end: {x:1300,y:700}
-		});
+			});
 		$("#page-3 #star").animate({path : bez_path}, 1500);
 	});
-});
+
 */	
 /*
 $(document).ready(function(){
