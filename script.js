@@ -9,7 +9,7 @@ $(document).ready(function() {
 		$("#BgSound")[0].play();
 		$("#page-0 .text").typed({
 			strings: ["Little price"],
-			typeSpeed: 50,
+			typeSpeed: 80,
 			callback: function(){
 				$("#page-0 .name").typed({
 					strings: ["0947704_강동길, 1240197_이미솔"],
@@ -47,7 +47,7 @@ $(document).ready(function() {
 		$("#page-1 .text").show();
 		$("#page-1 .text").typed({
 			strings: ['"가시는 쓸모없는 거야 꽃들이 심술부려 생긴거야..."'],
-			typeSpeed: 50,
+			typeSpeed: 80,
 			callback: function(){
 				$("#page-1").fadeOut(3000);
 				$("#page-2").fadeIn(3000);
@@ -88,7 +88,7 @@ $(document).ready(function() {
 			$("#page-2 .text").show();
 			$("#page-2 .text").typed({
 				strings: ['"넓은 바다 한가운데서 혼자 뗏목을 타고 표류하는 것보다 더 고립되어 있는 것처럼 느껴졌다!"'],
-				typeSpeed: 50,
+				typeSpeed: 80,
 				callback: function(){
 					$("#page-2").fadeOut(3000);
 					$("#page-3").fadeIn(3000);
@@ -130,7 +130,7 @@ $(document).ready(function() {
 			$("#page-3 .text").show();
 			$("#page-3 .text").typed({
 				strings: ['"어린왕자는 아마도 철새들의 이동을 이용해 별을 떠나왔을 것이다."'],
-				typeSpeed: 50,
+				typeSpeed: 80,
 				callback: function(){
 					$("#page-3").fadeOut(3000);
 					$("#page-4").fadeIn(3000);
@@ -148,7 +148,11 @@ $(document).ready(function() {
 			$("#page-4 .text").show();
 			$("#page-4 .text").typed({
 				strings: ["'나의 장미에 대해 책임이 있다....'이말을 결코 잊지않으려는 듯 어린왕자는 조용히 되뇌었다."],
-				typeSpeed: 50
+				typeSpeed: 80
+				callback: function(){
+					$("#page-4").fadeOut(3000);
+					$("#page-0").fadeIn(3000);
+				}
 			});
 
 		});
