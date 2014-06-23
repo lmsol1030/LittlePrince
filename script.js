@@ -139,7 +139,7 @@ $(document).ready(function() {
 		$("#page-3 #star").animate({path : bez_path}, 1500);
 	});
 
-*/	
+	
 /*
 $(document).ready(function(){
 	$(".page").hide();
