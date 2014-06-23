@@ -68,10 +68,11 @@
 	background-image: url('images/page-3/star.png');	
 }
 #page-3 .bird{
-	top:150px;
-	left:300px;
+	top:50px;
+	left:100px;
 	height:250px;
 	width:400px;
+	background-color:blue;
 
 }
 #page-3 .typo{
@@ -81,7 +82,7 @@
 	width:500px;
 }
 #page-3 .text {
-	top: 500px;
+	top: 600px;
 	left: 100px;
 	font-size: 50px;
 }
