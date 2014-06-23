@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	$(".page").hide();
 	$("#page-0").show();
