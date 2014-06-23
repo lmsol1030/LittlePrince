@@ -162,15 +162,7 @@ $(document).ready(function(){
 	});
 	$("#page-4 .bg").click(function(){
 			$(".october-leaf").css("background-image","url('images/page-4/sno.png')").(fadeIn(1000);
-				$("#page-4").octoberLeaves({
-				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
-				speedC: 2,  // Speed of leaves
-				rotation: 1,// Define rotation of leaves
-				rotationTrue: 1,    // Whether leaves rotate (1) or not (0)
-				numberOfLeaves: 10, // Number of leaves
-				size: 70,   // General size of leaves, final size is calculated randomly (with this number as general parameter)
-				cycleSpeed: 30     // <a href="http://www.jqueryscript.net/animation/">Animation</a> speed (Inverse frames per second) (10-100)
-				});
+			
 		});
 	
 	});
