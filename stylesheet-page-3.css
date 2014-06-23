@@ -47,8 +47,9 @@
 #page-3 .prince2{
 	top: 200px;
 	left: 1100px;
-	height: 253px;
-	width: 253px;
+	height: 300px;
+	width: 300px;
+	background-color:"yellow"
 
 }
 #page-3 #prince {
