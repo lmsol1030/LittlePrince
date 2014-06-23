@@ -78,9 +78,10 @@
 
 #page-1 .flower{
 	top: 500px;
-	left: 1000px;
+	left: 50px;
 	height: 300px;
-    	width: 500px;
+    	width: 1000px;
+    	background-color:blue;
 
 }
 	.october-leaf {
