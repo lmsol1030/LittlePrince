@@ -161,7 +161,7 @@ $(document).ready(function(){
 		$("#page-4 #fox").animate({top:'+=80px'},200);
 	});
 	$("#page-4 .bg").click(function(){
-			$(".october-leaf").css("background-image","url('images/page-2/background2.png')").(fadeIn(1000);
+			$(".october-leaf").css("background-image","url('images/page-4/sno.png')").(fadeIn(1000);
 				$("#page-4").octoberLeaves({
 				leafStyles: 4,      // Number of leaf styles in the sprite (leaves.png)
 				speedC: 2,  // Speed of leaves
