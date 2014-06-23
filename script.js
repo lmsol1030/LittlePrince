@@ -152,6 +152,7 @@ $(document).ready(function() {
 				callback: function(){
 					$("#page-4").fadeOut(3000);
 					$("#page-0").fadeIn(3000);
+					$(".october-leaf").fadeOut("fast");
 				}
 			});
 
