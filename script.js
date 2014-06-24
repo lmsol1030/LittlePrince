@@ -8,7 +8,7 @@ $(document).ready(function() {
 		$("#BgSound")[0].load();
 		$("#BgSound")[0].play();
 		$("#page-0 .text").typed({
-			strings: ["The Little price"],
+			strings: ["The Little prince"],
 			typeSpeed: 80,
 			callback: function(){
 				$("#page-0 .name").typed({
