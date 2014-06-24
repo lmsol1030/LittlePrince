@@ -5,4 +5,4 @@ The Little Prince
 
 [Live Demo](http://lmsol1030.github.io/LittlePrince)
 
-유튜브 http://youtu.be/gaPIuRqyCOA
+[Youtube] http://youtu.be/gaPIuRqyCOA
